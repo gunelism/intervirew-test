@@ -1,0 +1,162 @@
+#info {
+  background-color: lightgrey;
+  min-height: 25px;
+  font-size: 15px;
+  padding-top: 3px; }
+  #info ul li {
+    list-style: none;
+    float: left;
+    margin-right: 10px; }
+
+#header {
+  margin-top: 1%;
+  min-height: 150px;
+  border-bottom: 1px solid grey; }
+  #header .logoP {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    height: 120px;
+    background-color: grey;
+    font-size: 50px; }
+    #header .logoP p {
+      margin: auto; }
+  #header ul {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -webkit-flex-flow: row wrap;
+    -ms-flex-flow: row wrap;
+    flex-flow: row wrap; }
+    #header ul li {
+      margin: auto; }
+  #header button {
+    border-radius: 0;
+    padding: 15px 50px; }
+  #header .bordered {
+    margin-top: 1.5%;
+    width: 100%;
+    height: 50px;
+    border: 1px solid lightgrey;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex; }
+    #header .bordered div {
+      margin: auto; }
+      #header .bordered div:nth-child(2), #header .bordered div:nth-child(3) {
+        border-left: 1px solid lightgrey; }
+    #header .bordered input {
+      border: 0; }
+
+#news {
+  padding: 50px 0; }
+  #news .notifications {
+    width: 400px;
+    margin-bottom: 2.5%;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -webkit-flex-flow: row wrap;
+    -ms-flex-flow: row wrap;
+    flex-flow: row wrap;
+    -webkit-justify-content: space-around;
+    -ms-flex-pack: distribute;
+    justify-content: space-around; }
+  #news .leftPart li {
+    padding: 15px 20px;
+    margin-bottom: 2%;
+    border: 1px solid lightblue; }
+    #news .leftPart li:hover {
+      color: white;
+      background-color: lightblue;
+      cursor: pointer; }
+  #news .rightP .notiDivs div div {
+    padding: 50px 70px;
+    border: 1px solid lightblue; }
+    #news .rightP .notiDivs div div:hover {
+      color: white;
+      background-color: lightblue;
+      cursor: pointer; }
+  #news .rightP .searhing {
+    margin-top: 2%; }
+  #news .rightP .newsPart {
+    margin-top: 2%; }
+    #news .rightP .newsPart .forImg {
+      height: 300px;
+      overflow: hidden; }
+      #news .rightP .newsPart .forImg img {
+        width: 100%; }
+  #news .rightP li {
+    line-height: 2em; }
+  #news .rightP .laterSeen {
+    display: none; }
+  #news .rightP .parentDiv {
+    border: 1px solid lightgrey; }
+    #news .rightP .parentDiv .hovering {
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-pack: justify;
+      -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+      justify-content: space-between; }
+      #news .rightP .parentDiv .hovering li {
+        float: left; }
+    #news .rightP .parentDiv:hover .laterSeen {
+      display: block; }
+
+@media (max-width: 992px) {
+  #news .notifications li {
+    width: 100%;
+    margin-left: 5%; } }
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  vertical-align: baseline; }
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+body {
+  line-height: 1; }
+
+ol, ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
